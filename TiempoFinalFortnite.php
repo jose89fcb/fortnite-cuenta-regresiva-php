@@ -1,5 +1,5 @@
 <?php
-$FechaFinTemporada = strtotime('19-03-2022') - time(); //Añade el fin de temporada
+$FechaFinTemporada = strtotime('19-03-2022') - time(); //Añade la fecha de fin de temporada de fortnite
 $dia = floor($FechaFinTemporada / 86400);
 $hora  = floor(($FechaFinTemporada % 86400) / 3600);
 $minuto = floor(($FechaFinTemporada % 3600) / 60);
